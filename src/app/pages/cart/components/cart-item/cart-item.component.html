@@ -1,18 +1,30 @@
 <div class="cart-item-container">
-    <div class="image-container">
-      <img class="image-container--img" [src]="item?.image" alt="img">
+  <div class="image-container">
+    <img class="image-container--img" [src]="item?.image" alt="img" />
+  </div>
+  <div>
+    <h1 class="title-container">
+      {{ item?.name }}
+      <button
+        (click)="removeItemFromCart(item?.id)"
+        mat-raised-button
+        color="warn"
+      >
+        Remove from cart
+      </button>
+    </h1>
+    <h1 class="price-container">{{ item?.price | currency }}</h1>
+    <div class="rating-container">
+      <ngx-stars
+        [readonly]="true"
+        [initialStars]="item?.rating"
+        [size]="2"
+        [color]="'#3f51b5'"
+      ></ngx-stars>
+      <span> ({{ item?.reviews }} reviews)</span>
     </div>
-    <div>
-      <h1 class="title-container">{{item?.name}}
-        <button (click)="removeItemFromCart(item?.id)" mat-raised-button color="warn">Remove from cart</button>
-      </h1>
-      <h1 class="price-container">{{item?.price | currency}}</h1>
-      <div class="rating-container">
-        <ngx-stars [readonly]="true" [initialStars]="item?.rating" [size]="2" [color]="'#3f51b5'"></ngx-stars>
-        <span> ({{item?.reviews}} reviews)</span>
-      </div>
-      <p>
-        {{item?.description}}
-      </p>
-    </div>
+    <p>
+      {{ item?.description }}
+    </p>
+  </div>
 </div>

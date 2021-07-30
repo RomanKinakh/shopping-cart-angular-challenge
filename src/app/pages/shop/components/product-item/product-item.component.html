@@ -1,10 +1,15 @@
 <div class="product-item-container">
   <div>
     <div class="image-container">
-      <img class="image-container--img" [src]="product?.image" alt="img">
+      <img class="image-container--img" [src]="product?.image" alt="img" />
     </div>
-    <h3 class="title-container">{{product?.name}}</h3>
+    <h3 class="title-container">{{ product?.name }}</h3>
   </div>
-    <ngx-stars [readonly]="true" [initialStars]="product?.rating" [size]="1.5" [color]="'#3f51b5'"></ngx-stars>
-  <h2>{{product?.price | currency}}</h2>
+  <ngx-stars
+    [readonly]="true"
+    [initialStars]="product?.rating"
+    [size]="1.5"
+    [color]="'#3f51b5'"
+  ></ngx-stars>
+  <h2>{{ product?.price | currency }}</h2>
 </div>

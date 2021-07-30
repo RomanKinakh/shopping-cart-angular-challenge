@@ -6,13 +6,14 @@ import { CartActions } from './cart.actions';
 
 @Injectable()
 export class CartEffects {
-
   addItemToCart$ = createEffect(
     () =>
       this.actions$.pipe(
         ofType(CartActions.addItem),
         tap((data) => {
-          this.snackBarService.showSuccessMessage('Product was successfully added!')
+          this.snackBarService.showSuccessMessage(
+            'Product was successfully added!'
+          );
         })
       ),
     { dispatch: false }
@@ -23,7 +24,9 @@ export class CartEffects {
       this.actions$.pipe(
         ofType(CartActions.removeItem),
         tap((data) => {
-          this.snackBarService.showSuccessMessage('Product was successfully removed!')
+          this.snackBarService.showSuccessMessage(
+            'Product was successfully removed!'
+          );
         })
       ),
     { dispatch: false }

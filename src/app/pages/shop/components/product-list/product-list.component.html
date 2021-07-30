@@ -1,21 +1,27 @@
 <div class="product-list-container">
   <ng-container *ngIf="products?.length; else noData">
     <div class="products-grid">
-
       <app-product-item
-        *ngFor="let product of products | paginate: {itemsPerPage: 12, currentPage: page, totalItems: total}; trackBy: trackByFn"
-        [product]="product" (click)="onProductClick(product)"></app-product-item>
+        *ngFor="
+          let product of products
+            | paginate
+              : { itemsPerPage: 12, currentPage: page, totalItems: total };
+          trackBy: trackByFn
+        "
+        [product]="product"
+        (click)="onProductClick(product)"
+      ></app-product-item>
     </div>
-    <pagination-controls (pageChange)="onPageChange($event)"
-                         maxSize="7"
-                         directionLinks="true"
-                         autoHide="true"
-                         previousLabel=""
-                         nextLabel=""></pagination-controls>
+    <pagination-controls
+      (pageChange)="onPageChange($event)"
+      maxSize="7"
+      directionLinks="true"
+      autoHide="true"
+      previousLabel=""
+      nextLabel=""
+    ></pagination-controls>
   </ng-container>
   <ng-template #noData>
-    <div class="no-data-container">
-      Nothing could be found
-    </div>
+    <div class="no-data-container">Nothing could be found</div>
   </ng-template>
 </div>

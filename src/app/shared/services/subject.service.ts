@@ -2,10 +2,9 @@ import { Injectable } from '@angular/core';
 import { Observable, Subject } from 'rxjs';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class SubjectService {
-
   private showSpinner$ = new Subject<boolean>();
 
   getShowSpinnerValue(): Observable<boolean> {
@@ -16,5 +15,5 @@ export class SubjectService {
     this.showSpinner$.next(value);
   }
 
-  constructor() { }
+  constructor() {}
 }

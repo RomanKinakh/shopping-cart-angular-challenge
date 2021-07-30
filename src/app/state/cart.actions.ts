@@ -6,10 +6,7 @@ const addItem = createAction(
   props<{ item: ProductEntity }>()
 );
 
-const setItemId = createAction(
-  '[Cart] Set item id',
-  props<{ id: number }>()
-);
+const setItemId = createAction('[Cart] Set item id', props<{ id: number }>());
 
 const removeItem = createAction(
   '[Cart] Remove item by id',
@@ -19,5 +16,5 @@ const removeItem = createAction(
 export const CartActions = {
   addItem,
   setItemId,
-  removeItem
+  removeItem,
 };

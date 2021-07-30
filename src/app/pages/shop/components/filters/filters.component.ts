@@ -1,15 +1,27 @@
-import { ChangeDetectionStrategy, Component, OnInit, Output, EventEmitter, Input } from '@angular/core';
+import {
+  ChangeDetectionStrategy,
+  Component,
+  OnInit,
+  Output,
+  EventEmitter,
+  Input,
+} from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
-import { PRICE_OPTIONS, ELECTRONIC_TYPE_OPTIONS, ElectronicTypeOption, FiltersEntity, PriceOption } from '../../models';
+import {
+  PRICE_OPTIONS,
+  ELECTRONIC_TYPE_OPTIONS,
+  ElectronicTypeOption,
+  FiltersEntity,
+  PriceOption,
+} from '../../models';
 
 @Component({
   selector: 'app-filters',
   templateUrl: './filters.component.html',
   styleUrls: ['./filters.component.scss'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class FiltersComponent implements OnInit {
-
   @Input('filters') set _filters(value) {
     if (value) {
       this.form.setValue(value);
@@ -25,8 +37,7 @@ export class FiltersComponent implements OnInit {
     this.formInit();
   }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
   private formInit(): void {
     this.form = this.formBuilder.group({
@@ -36,11 +47,10 @@ export class FiltersComponent implements OnInit {
       priceFrom750to1000: false,
       priceFrom1000to1500: false,
     });
-
   }
 
   onValueChange(): void {
-    this.filterValueChanged.emit({...this.form.value, page: 1});
+    this.filterValueChanged.emit({ ...this.form.value, page: 1 });
   }
 
   onSearch(): void {
@@ -51,5 +61,4 @@ export class FiltersComponent implements OnInit {
       this.onValueChange();
     }, 500);
   }
-
 }

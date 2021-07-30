@@ -9,13 +9,11 @@ import { CartFacade } from '../../state/cart.facade';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class CartComponent implements OnInit {
-
   allItems$ = this.cartFacade.allItems$;
 
-  constructor(private cartFacade: CartFacade) { }
+  constructor(private cartFacade: CartFacade) {}
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
   trackByFn(i: number, el: ProductEntity): number {
     return el.id || i;
@@ -24,5 +22,4 @@ export class CartComponent implements OnInit {
   onItemRemove(id: number): void {
     this.cartFacade.removeItemFromCart(id);
   }
-
 }

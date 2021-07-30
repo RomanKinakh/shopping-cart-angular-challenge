@@ -1,4 +1,4 @@
-export const  isNullOrUndefined = (value: any): boolean => {
+export const isNullOrUndefined = (value: any): boolean => {
   return value === null || typeof value === 'undefined';
 };
 
@@ -20,4 +20,4 @@ export const deepMerge = (source, obj) => {
 
 export const fromStringToBoolean = (value): boolean => {
   return value === 'true';
-}
+};

@@ -1,12 +1,16 @@
 import { createFeatureSelector, createSelector } from '@ngrx/store';
-import { CART_FEATURE_KEY, cartAdapter, CartPartialState, CartState, } from './cart.reducer';
+import {
+  CART_FEATURE_KEY,
+  cartAdapter,
+  CartPartialState,
+  CartState,
+} from './cart.reducer';
 
 const { selectAll, selectEntities } = cartAdapter.getSelectors();
 
-const getCartState = createFeatureSelector<
-  CartPartialState,
-  CartState
->(CART_FEATURE_KEY);
+const getCartState = createFeatureSelector<CartPartialState, CartState>(
+  CART_FEATURE_KEY
+);
 
 const getLoaded = createSelector(
   getCartState,
@@ -18,14 +22,12 @@ const getError = createSelector(
   (state: CartState) => state.errors
 );
 
-const getAllItems = createSelector(
-  getCartState,
-  (state: CartState) => selectAll(state)
+const getAllItems = createSelector(getCartState, (state: CartState) =>
+  selectAll(state)
 );
 
-const getItemsEntities = createSelector(
-  getCartState,
-  (state: CartState) => selectEntities(state)
+const getItemsEntities = createSelector(getCartState, (state: CartState) =>
+  selectEntities(state)
 );
 
 const getSelectedId = createSelector(
@@ -45,6 +47,5 @@ export const CartQuery = {
   getAllItems,
   getItemsEntities,
   getSelectedId,
-  getSelected
-}
-
+  getSelected,
+};

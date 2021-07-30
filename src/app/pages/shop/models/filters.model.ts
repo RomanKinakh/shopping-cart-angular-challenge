@@ -1,4 +1,7 @@
-import { deepMerge, fromStringToBoolean } from '../../../shared/helpers/helpers';
+import {
+  deepMerge,
+  fromStringToBoolean,
+} from '../../../shared/helpers/helpers';
 
 export interface ElectronicTypeOption {
   label: string;
@@ -11,19 +14,18 @@ export interface PriceOption {
 }
 
 export interface FilterPrices {
-  priceFrom500to750: boolean | string,
-  priceFrom750to1000: boolean | string,
-  priceFrom1000to1500: boolean | string,
+  priceFrom500to750: boolean | string;
+  priceFrom750to1000: boolean | string;
+  priceFrom1000to1500: boolean | string;
 }
 
-export interface FiltersEntity extends FilterPrices{
+export interface FiltersEntity extends FilterPrices {
   search: string;
   type: string;
-  page?: number
-
+  page?: number;
 }
 
-export class FiltersModel implements FiltersEntity{
+export class FiltersModel implements FiltersEntity {
   search = '';
   type = 'all';
   priceFrom500to750 = false;

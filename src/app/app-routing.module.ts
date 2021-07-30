@@ -1,22 +1,20 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-
-const routes: Routes = [{
-  path: '',
-  loadChildren: () => import('./pages').then(m => m.ShopModule)
-},
+const routes: Routes = [
+  {
+    path: '',
+    loadChildren: () => import('./pages').then((m) => m.ShopModule),
+  },
   {
     path: 'cart',
-    loadChildren: () => import('./pages').then(m => m.CartModule)
+    loadChildren: () => import('./pages').then((m) => m.CartModule),
   },
-  { path: '**', redirectTo: '' }
+  { path: '**', redirectTo: '' },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-
-export class AppRoutingModule {
-}
+export class AppRoutingModule {}

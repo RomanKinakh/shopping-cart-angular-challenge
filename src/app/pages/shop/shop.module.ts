@@ -9,11 +9,21 @@ import { MaterialModule } from '../../shared';
 import { ShopService } from './services';
 import { ShopRoutingModule } from './shop-routing.module';
 import { ShopComponent } from './shop.component';
-import { FiltersComponent, ProductInfoModalComponent, ProductItemComponent, ProductListComponent } from './components';
-
+import {
+  FiltersComponent,
+  ProductInfoModalComponent,
+  ProductItemComponent,
+  ProductListComponent,
+} from './components';
 
 @NgModule({
-  declarations: [ShopComponent, FiltersComponent, ProductListComponent, ProductItemComponent, ProductInfoModalComponent],
+  declarations: [
+    ShopComponent,
+    FiltersComponent,
+    ProductListComponent,
+    ProductItemComponent,
+    ProductInfoModalComponent,
+  ],
   imports: [
     CommonModule,
     ShopRoutingModule,
@@ -26,7 +36,6 @@ import { FiltersComponent, ProductInfoModalComponent, ProductItemComponent, Prod
     MatDialogModule,
   ],
   providers: [ShopService],
-  entryComponents: [ProductInfoModalComponent]
+  entryComponents: [ProductInfoModalComponent],
 })
-export class ShopModule {
-}
+export class ShopModule {}
