@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Observable } from 'rxjs';
+import { SubjectService } from './shared/services/subject.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'shopping-cart-angular-challenge';
+
+  showSpinner$: Observable<boolean>;
+
+  constructor(private subjectService: SubjectService) {
+    this.showSpinner$ = this.subjectService.getShowSpinnerValue();
+  }
+
 }

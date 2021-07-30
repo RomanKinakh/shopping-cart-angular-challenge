@@ -1,0 +1,22 @@
+<form action="" class="filters-form" [formGroup]="form">
+  <mat-form-field class="search filters-form-item" appearance="fill">
+    <mat-label>Search</mat-label>
+    <mat-icon matPrefix>search</mat-icon>
+    <input type="search" matInput placeholder="Search" formControlName="search" (input)="onSearch()">
+  </mat-form-field>
+  <mat-form-field class="filters-form-item" appearance="fill">
+    <mat-label>Electronic type</mat-label>
+    <mat-select formControlName="type" (selectionChange)="onValueChange()">
+      <mat-option *ngFor="let type of electronicTypeOptions" [value]="type.value">
+        {{type.label}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <section class="checkbox-section filters-form-item">
+    <mat-checkbox *ngFor="let option of checkboxPriceOptions; let i = index" [formControlName]=option.name
+                  (change)="onValueChange()"
+                  color="primary"
+                  class="checkbox">{{option.label}}
+    </mat-checkbox>
+  </section>
+</form>

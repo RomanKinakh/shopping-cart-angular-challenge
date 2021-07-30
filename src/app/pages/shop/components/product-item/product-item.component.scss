@@ -1,0 +1,39 @@
+.product-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.2rem;
+  cursor: pointer;
+  border: 1px solid #f4f6f9;
+  height: 365px;
+  text-align: left;
+  border-radius: 0.5rem;
+  &:hover {
+    border-color: #000000;
+  }
+}
+
+.image-container {
+  width: 100%;
+  height: 220px;
+  padding-bottom: 1rem;
+  &--img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.title-container {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.rating-text {
+  padding-bottom: 3px;
+}

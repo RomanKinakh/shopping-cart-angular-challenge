@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "name": "Toshiba 55 4K UHD HDR LED Smart TV",
+    "image": "assets/images/tv.jpeg",
+    "price": 599.99,
+    "rating": 4.5,
+    "description": "Enjoy stunningly crisp visuals in 4K Ultra HD on this Toshiba smart TV. It boasts a 55\" screen with a 60Hz refresh rate for smooth motion, while VA display technology offers wide viewing angles and a great contrast ratio, and DTX VX technology gives you immersive multi-dimensional audio. Powered by Fire OS, you'll get access to a world of apps, games, streaming services, and more.",
+    "reviews": 118,
+    "type": "tvs"
+  },
+  {
+    "id": 2,
+    "name": "Samsung 60 4K UHD HDR QLED Tizen Smart TV",
+    "image": "assets/images/tv.jpeg",
+    "price": 1299.99,
+    "rating": 4.8,
+    "description": "Complete your home entertainment setup with the Samsung HDR Tizen smart TV to enjoy a cinematic movie watching experience. Boasting a 60\" QLED 4K UHD display, it produces vibrant images with lifelike colours and amazing image details. With the Super Ultrawide GameView and Game Bar features, you can adjust the display as required for versatile gaming needs.",
+    "reviews": 300,
+    "type": "tvs"
+  },
+  {
+    "id": 3,
+    "name": "LG 55 4K UHD HDR LED webOS Smart TV",
+    "image": "assets/images/tv.jpeg",
+    "price": 849.99,
+    "rating": 4.6,
+    "description": "Experience a thrilling cinematic experience right in your home with the LG 55\" 4K smart TV. It features a 4K LED screen with more than 8 million pixels that produce clear and sharp pictures in superior detail. It also features integrated Wi-Fi, Bluetooth, built-in voice assistants, and many other smart features that you will love.",
+    "reviews": 50,
+    "type": "tvs"
+  },
+  {
+    "id": 4,
+    "name": "Hisense 55 4K UHD HDR QLED Android Smart TV",
+    "image": "assets/images/tv.jpeg",
+    "price": 699.99,
+    "rating": 3.6,
+    "description": "Stay fully connected to the action of your movies, games, and sports with the incredible power of this 55\" Hisense 4K UHD Android Smart TV. Boasting QLED technology, Dolby Vision, and HDR10+ for lifelike colour, it delivers cinema-quality pictures. Built in speakers with Dolby Atmos enhancements ensure rich, immersive sound.",
+    "reviews": 99,
+    "type": "tvs"
+  },
+  {
+    "id": 5,
+    "name": "Hisense 65 4K UHD HDR QLED Android Smart TV",
+    "image": "assets/images/tv.jpeg",
+    "price": 1499.99,
+    "rating": 4.0,
+    "description": "mart TV. With amazing clarity and superb picture quality on its 65 screen, it features Hisense QLED technology that brings out a billion shades of colour for realistic visuals. Also included are a plethora of cutting-edge functions to take your entertainment experience to another level.",
+    "reviews": 145,
+    "type": "tvs"
+  },
+  {
+    "id": 6,
+    "name": "LG 55 4K UHD HDR LED webOS Smart TV",
+    "image": "assets/images/tv.jpeg",
+    "price": 799.99,
+    "rating": 0,
+    "description": "Go beyond the ordinary with the LG LED smart TV. With a 55\" screen that delivers 4K UHD resolution and HDR support, you are treated with incredible visuals in vivid colours for an outstanding viewing experience. The webOS operating system along with built-in Amazon Alexa and Google Assistant change the way you watch movies or play games by giving you access to hours of content through streaming apps and enabling voice control.",
+    "reviews": 0,
+    "type": "tvs"
+  },
+  {
+    "id": 33,
+    "name": "LG NanoCell 55\" 4K UHD HDR LED webOS Smart TV",
+    "image": "assets/images/tv.jpeg",
+    "price": 649.99,
+    "rating": 4.6,
+    "description": "Enjoy stunningly crisp visuals in 4K Ultra HD on this Toshiba smart TV. It boasts a 55\" screen with a 60Hz refresh rate for smooth motion, while VA display technology offers wide viewing angles and a great contrast ratio, and DTX VX technology gives you immersive multi-dimensional audio. Powered by Fire OS, you'll get access to a world of apps, games, streaming services, and more.",
+    "reviews": 617,
+    "type": "tvs"
+  },
+  {
+    "id": 7,
+    "name": "Insignia 30 18 Cu. Ft. Top Freezer Refrigerator",
+    "image": "assets/images/appliances.jpeg",
+    "price": 799.99,
+    "rating": 4.5,
+    "description": "Keep all of your supermarket finds fresh or frozen with this Insignia 18 cu. ft. fridge. It features a top-mount freezer that keeps all of your favourite frozen treats at a convenient level. The fresh food compartment includes spill-proof shelves, adjustable storage bins, and 2 crisper drawers to help your fruits and veggies stay fresh.",
+    "reviews": 232,
+    "type": "appliances"
+  },
+  {
+    "id": 8,
+    "name": "Haier 28 15 Cu. Ft. 4-Door French Door Refrigerator",
+    "image": "assets/images/appliances.jpeg",
+    "price": 1199.99,
+    "rating": 4.6,
+    "description": "Ensure your favourite foods are kept fresh longer with this 28\" Haier 15 cu. ft. French-door refrigerator with bottom freezer. The adjustable glass shelves provide flexible storage options, while 2 bottom freezer drawers let you separate your frozen foods for better organization. It's equipped with a Sabbath mode and electronic touch controls.",
+    "reviews": 572,
+    "type": "appliances"
+  },
+  {
+    "id": 9,
+    "name": "Insignia 30 Top Freezer Refrigerator",
+    "image": "assets/images/appliances.jpeg",
+    "price": 639.99,
+    "rating": 0,
+    "description": "Keep all of your supermarket finds fresh or frozen with this Insignia 18 cu. ft. fridge. It features a top-mount freezer that keeps all of your favourite frozen treats at a convenient level. The fresh food compartment includes 2 adjustable spill-proof shelves, adjustable storage bins, and 2 crisper drawers to help your fruits and veggies stay fresh.",
+    "reviews": 0,
+    "type": "appliances"
+  },
+  {
+    "id": 10,
+    "name": "Ft. Bottom Freezer Refrigerator with LED Lighting",
+    "image": "assets/images/appliances.jpeg",
+    "price": 888.99,
+    "rating": 5,
+    "description": "A place for everything, and everything in its place. That's this GE Energy Star refrigerator in a nutshell. Sporting a 20.9 cu. ft. capacity, it features a bottom-freezer design that keeps all your go-to foods conveniently at eye level. The handy array of bins, shelves, and drawers are all lit up for easy visibility thanks to high-efficiency Ramp up LED lighting.",
+    "reviews": 1000,
+    "type": "appliances"
+  },
+  {
+    "id": 11,
+    "name": "Dishwasher with Stainless Steel Tub",
+    "image": "assets/images/appliances.jpeg",
+    "price": 555.99,
+    "rating": 2.0,
+    "description": "A place for everything, and everything in its place. That's this GE Energy Star refrigerator in a nutshell. Sporting a 20.9 cu. ft. capacity, it features a bottom-freezer design that keeps all your go-to foods conveniently at eye level. The handy array of bins, shelves, and drawers are all lit up for easy visibility thanks to high-efficiency Ramp up LED lighting.",
+    "reviews": 433,
+    "type": "appliances"
+  },
+  {
+    "id": 12,
+    "name": "True Convection 5-Element Slide-In Electric Range",
+    "image": "assets/images/appliances.jpeg",
+    "price": 999.99,
+    "rating": 4.1,
+    "description": "A place for everything, and everything in its place. That's this GE Energy Star refrigerator in a nutshell. Sporting a 20.9 cu. ft. capacity, it features a bottom-freezer design that keeps all your go-to foods conveniently at eye level. The handy array of bins, shelves, and drawers are all lit up for easy visibility thanks to high-efficiency Ramp up LED lighting.",
+    "reviews": 230,
+    "type": "appliances"
+  },
+  {
+    "id": 42,
+    "name": "Insignia Portable Air Conditioner",
+    "image": "assets/images/appliances.jpeg",
+    "price": 679.99,
+    "rating": 1.5,
+    "description": "A place for everything, and everything in its place. That's this GE Energy Star refrigerator in a nutshell. Sporting a 20.9 cu. ft. capacity, it features a bottom-freezer design that keeps all your go-to foods conveniently at eye level. The handy array of bins, shelves, and drawers are all lit up for easy visibility thanks to high-efficiency Ramp up LED lighting.",
+    "reviews": 180,
+    "type": "appliances"
+  },
+  {
+    "id": 13,
+    "name": "Samsung Galaxy S21",
+    "image": "assets/images/phone.jpeg",
+    "price": 599.99,
+    "rating": 4.3,
+    "description": "Put the future in the palm of your hand with the Samsung Galaxy S21 Ultra 5G. This smartphone's super-high-resolution cameras (up to 108MP) feature 100x Space Zoom, one-tap effects, and multiple ways to capture photos and video up to 8K, giving you the power of a professional photo studio in your pocket. The adaptive 120Hz display and an all-day intelligent battery add to an amazing experience.",
+    "reviews": 543,
+    "type": "phones"
+  },
+  {
+    "id": 14,
+    "name": "Apple iPhone 11 64GB",
+    "image": "assets/images/phone.jpeg",
+    "price": 699.99,
+    "rating": 4.0,
+    "description": "Put the future in the palm of your hand with the Samsung Galaxy S21 Ultra 5G. This smartphone's super-high-resolution cameras (up to 108MP) feature 100x Space Zoom, one-tap effects, and multiple ways to capture photos and video up to 8K, giving you the power of a professional photo studio in your pocket. The adaptive 120Hz display and an all-day intelligent battery add to an amazing experience.",
+    "reviews": 2,
+    "type": "phones"
+  },
+  {
+    "id": 15,
+    "name": "Apple iPhone 12 Pro",
+    "image": "assets/images/phone.jpeg",
+    "price": 999.99,
+    "rating": 4.7,
+    "description": "Put the future in the palm of your hand with the Samsung Galaxy S21 Ultra 5G. This smartphone's super-high-resolution cameras (up to 108MP) feature 100x Space Zoom, one-tap effects, and multiple ways to capture photos and video up to 8K, giving you the power of a professional photo studio in your pocket. The adaptive 120Hz display and an all-day intelligent battery add to an amazing experience.",
+    "reviews": 265,
+    "type": "phones"
+  },
+  {
+    "id": 16,
+    "name": "Google Pixel 4a",
+    "image": "assets/images/phone.jpeg",
+    "price": 1199.99,
+    "rating": 1.7,
+    "description": "Put the future in the palm of your hand with the Samsung Galaxy S21 Ultra 5G. This smartphone's super-high-resolution cameras (up to 108MP) feature 100x Space Zoom, one-tap effects, and multiple ways to capture photos and video up to 8K, giving you the power of a professional photo studio in your pocket. The adaptive 120Hz display and an all-day intelligent battery add to an amazing experience.",
+    "reviews": 23,
+    "type": "phones"
+  },
+  {
+    "id": 17,
+    "name": "Apple iPhone 12 Pro Max",
+    "image": "assets/images/phone.jpeg",
+    "price": 1399.99,
+    "rating": 5.0,
+    "description": "Put the future in the palm of your hand with the Samsung Galaxy S21 Ultra 5G. This smartphone's super-high-resolution cameras (up to 108MP) feature 100x Space Zoom, one-tap effects, and multiple ways to capture photos and video up to 8K, giving you the power of a professional photo studio in your pocket. The adaptive 120Hz display and an all-day intelligent battery add to an amazing experience.",
+    "reviews": 453,
+    "type": "phones"
+  },
+  {
+    "id": 18,
+    "name": "Samsung Galaxy Note20 Ultra",
+    "image": "assets/images/phone.jpeg",
+    "price": 549.99,
+    "rating": 3.7,
+    "description": "Put the future in the palm of your hand with the Samsung Galaxy S21 Ultra 5G. This smartphone's super-high-resolution cameras (up to 108MP) feature 100x Space Zoom, one-tap effects, and multiple ways to capture photos and video up to 8K, giving you the power of a professional photo studio in your pocket. The adaptive 120Hz display and an all-day intelligent battery add to an amazing experience.",
+    "reviews": 254,
+    "type": "phones"
+  },
+  {
+    "id": 68,
+    "name": "Samsung Galaxy A52",
+    "image": "assets/images/phone.jpeg",
+    "price": 729.99,
+    "rating": 5,
+    "description": "Put the future in the palm of your hand with the Samsung Galaxy S21 Ultra 5G. This smartphone's super-high-resolution cameras (up to 108MP) feature 100x Space Zoom, one-tap effects, and multiple ways to capture photos and video up to 8K, giving you the power of a professional photo studio in your pocket. The adaptive 120Hz display and an all-day intelligent battery add to an amazing experience.",
+    "reviews": 6,
+    "type": "phones"
+  },
+  {
+    "id": 19,
+    "name": "Mario & Sonic at the Olympic Games: Tokyo",
+    "image": "assets/images/games.jpeg",
+    "price": 599.99,
+    "rating": 4.5,
+    "description": "Join Mario, Sonic and friends for their greatest adventure yet at the Olympic Games Tokyo 2020, exclusively on Nintendo Switch. Go for gold as you compete in action-packed sports games, including Skateboarding, Karate, Surfing, and Sport Climbing, as well as a large selection of classic events. You can play as Mario, Yoshi, Luigi, and other favourite characters!",
+    "reviews": 754,
+    "type": "video_games"
+  },
+  {
+    "id": 20,
+    "name": "Red Dead Redemption 2",
+    "image": "assets/images/games.jpeg",
+    "price": 799.99,
+    "rating": 4.6,
+    "description": "Join Mario, Sonic and friends for their greatest adventure yet at the Olympic Games Tokyo 2020, exclusively on Nintendo Switch. Go for gold as you compete in action-packed sports games, including Skateboarding, Karate, Surfing, and Sport Climbing, as well as a large selection of classic events. You can play as Mario, Yoshi, Luigi, and other favourite characters!",
+    "reviews": 231,
+    "type": "video_games"
+  },
+  {
+    "id": 21,
+    "name": "NBA 2K21",
+    "image": "assets/images/games.jpeg",
+    "price": 1199.99,
+    "rating": 4.8,
+    "description": "Join Mario, Sonic and friends for their greatest adventure yet at the Olympic Games Tokyo 2020, exclusively on Nintendo Switch. Go for gold as you compete in action-packed sports games, including Skateboarding, Karate, Surfing, and Sport Climbing, as well as a large selection of classic events. You can play as Mario, Yoshi, Luigi, and other favourite characters!",
+    "reviews": 831,
+    "type": "video_games"
+  },
+  {
+    "id": 22,
+    "name": "Persona 5 Strikers",
+    "image": "assets/images/games.jpeg",
+    "price": 649.99,
+    "rating": 2.8,
+    "description": "Join Mario, Sonic and friends for their greatest adventure yet at the Olympic Games Tokyo 2020, exclusively on Nintendo Switch. Go for gold as you compete in action-packed sports games, including Skateboarding, Karate, Surfing, and Sport Climbing, as well as a large selection of classic events. You can play as Mario, Yoshi, Luigi, and other favourite characters!",
+    "reviews": 137,
+    "type": "video_games"
+  },
+  {
+    "id": 23,
+    "name": "Mafia: Definitive Edition",
+    "image": "assets/images/games.jpeg",
+    "price": 799.99,
+    "rating": 4.9,
+    "description": "Join Mario, Sonic and friends for their greatest adventure yet at the Olympic Games Tokyo 2020, exclusively on Nintendo Switch. Go for gold as you compete in action-packed sports games, including Skateboarding, Karate, Surfing, and Sport Climbing, as well as a large selection of classic events. You can play as Mario, Yoshi, Luigi, and other favourite characters!",
+    "reviews": 327,
+    "type": "video_games"
+  },
+  {
+    "id": 24,
+    "name": "Grand Theft Auto V",
+    "image": "assets/images/games.jpeg",
+    "price": 1299.99,
+    "rating": 5.0,
+    "description": "Join Mario, Sonic and friends for their greatest adventure yet at the Olympic Games Tokyo 2020, exclusively on Nintendo Switch. Go for gold as you compete in action-packed sports games, including Skateboarding, Karate, Surfing, and Sport Climbing, as well as a large selection of classic events. You can play as Mario, Yoshi, Luigi, and other favourite characters!",
+    "reviews": 1327,
+    "type": "video_games"
+  },
+  {
+    "id": 99,
+    "name": "F1 2021",
+    "image": "assets/images/games.jpeg",
+    "price": 659.99,
+    "rating": 1.0,
+    "description": "Join Mario, Sonic and friends for their greatest adventure yet at the Olympic Games Tokyo 2020, exclusively on Nintendo Switch. Go for gold as you compete in action-packed sports games, including Skateboarding, Karate, Surfing, and Sport Climbing, as well as a large selection of classic events. You can play as Mario, Yoshi, Luigi, and other favourite characters!",
+    "reviews": 1,
+    "type": "video_games"
+  }
+]

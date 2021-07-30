@@ -1,0 +1,30 @@
+.product-list-container {
+  padding: 1.5rem 1rem 2rem;
+  text-align: center;
+}
+
+.no-data-container {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 2rem;
+
+  @media screen and (min-width: 635px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media screen and (min-width: 1024px) {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 60px;
+  }
+
+  @media screen and (min-width: 1300px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
