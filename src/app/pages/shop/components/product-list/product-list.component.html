@@ -1,11 +1,10 @@
 <div class="product-list-container">
   <ng-container *ngIf="products?.length; else noData">
     <div class="products-grid">
-      <div
+
+      <app-product-item
         *ngFor="let product of products | paginate: {itemsPerPage: 12, currentPage: page, totalItems: total}; trackBy: trackByFn"
-        class="items">
-        <app-product-item [product]="product"></app-product-item>
-      </div>
+        [product]="product" (click)="onProductClick(product)"></app-product-item>
     </div>
     <pagination-controls (pageChange)="onPageChange($event)"
                          maxSize="7"

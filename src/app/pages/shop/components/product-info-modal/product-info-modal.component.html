@@ -1,0 +1,26 @@
+<div class="info-container">
+  <div>
+    <h2 class="title-container">{{data?.name}}</h2>
+    <p class="price-container">Price: {{data?.price | currency}}</p>
+    <div class="rating-container">
+      <ngx-stars [readonly]="true" [initialStars]="data?.rating" [size]="1" [color]="'#3f51b5'"></ngx-stars>
+      <span> ({{data?.reviews}} reviews)</span>
+    </div>
+    <div class="image-container">
+      <img class="image-container--img" [src]="data?.image" alt="img">
+    </div>
+    <div class="description-container">
+      <h3 class="description-container--title">Overview</h3>
+      <p class="description-container--text">{{data?.description}}</p>
+    </div>
+  </div>
+  <div class="btns-container">
+    <ng-container *ngIf="isInCart$ | async; else deleteEl">
+      <button (click)="removeItemFromCart(data.id)" mat-raised-button color="warn">Remove from cart</button>
+    </ng-container>
+    <ng-template #deleteEl>
+      <button (click)="addItemToCart(data)" mat-raised-button color="primary">Add to cart</button>
+    </ng-template>
+    <button mat-button mat-dialog-close color="primary">Close</button>
+  </div>
+</div>

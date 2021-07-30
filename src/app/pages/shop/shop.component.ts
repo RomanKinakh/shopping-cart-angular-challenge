@@ -4,7 +4,7 @@ import { Subject } from 'rxjs';
 import { distinctUntilChanged, finalize, takeUntil } from 'rxjs/operators';
 import { SubjectService } from '../../shared/services/subject.service';
 import { FiltersEntity, FiltersModel } from './models';
-import { ProductEntity } from './models/product.model';
+import { ProductEntity } from '../../shared/models/product.model';
 import { ShopService } from './services';
 
 @Component({

@@ -1,0 +1,10 @@
+<div *ngIf="allItems$ | async as items" class="cart-container">
+  <ng-container *ngIf="items?.length; else noData">
+    <app-cart-item *ngFor="let item of items; trackBy: trackByFn" [item]="item" (removeItem)="onItemRemove($event)"></app-cart-item>
+  </ng-container>
+  <ng-template #noData>
+    <div class="no-data-container">
+      No items were selected
+    </div>
+  </ng-template>
+</div>

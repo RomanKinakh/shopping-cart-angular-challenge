@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { delay, map } from 'rxjs/operators';
 import { FilterPrices, FiltersEntity, PRICES_MIN_MAX_VALUES } from '../models';
-import { ProductEntity, ResponseData } from '../models/product.model';
+import { ProductEntity, ResponseData } from '../../../shared/models/product.model';
 
 @Injectable()
 export class ShopService {

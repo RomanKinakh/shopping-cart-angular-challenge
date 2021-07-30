@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, Input, OnInit } from '@angular/core';
-import { ProductEntity } from '../../models/product.model';
+import { ProductEntity } from '../../../../shared/models/product.model';
 
 @Component({
   selector: 'app-product-item',

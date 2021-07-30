@@ -1,5 +1,8 @@
 import { ChangeDetectionStrategy, Component, Input, OnInit, Output, EventEmitter } from '@angular/core';
-import { ProductEntity } from '../../models/product.model';
+import { MatDialog } from '@angular/material/dialog';
+import { CartFacade } from '../../../../state/cart.facade';
+import { ProductInfoModalComponent } from '../product-info-modal/product-info-modal.component';
+import { ProductEntity } from '../../../../shared/models/product.model';
 
 @Component({
   selector: 'app-product-list',
@@ -14,7 +17,7 @@ export class ProductListComponent implements OnInit {
   @Input() total = 0;
   @Output() pageChanged = new EventEmitter<number>();
 
-  constructor() { }
+  constructor(private dialog: MatDialog, private cartFacade: CartFacade) { }
 
   ngOnInit(): void {
   }
@@ -26,6 +29,14 @@ export class ProductListComponent implements OnInit {
 
   trackByFn(i: number, el: ProductEntity): number {
     return el.id || i;
+  }
+
+  onProductClick(item: ProductEntity) {
+    this.cartFacade.selectItemId(item.id);
+    this.dialog.open(ProductInfoModalComponent, {
+      data: {...item},
+      width: '600px'
+    });
   }
 
 }
